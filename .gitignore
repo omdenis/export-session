@@ -1,0 +1,6 @@
+*
+!.gitignore
+!build.ps1
+!src/
+!src/**
+

@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "AI Export Session",
+  "version": "3.0",
+  "description": "Export a ChatGPT or Gemini conversation to Markdown (Obsidian callouts, frontmatter, per-message dates when available).",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": [
+    "https://chatgpt.com/*",
+    "https://chat.openai.com/*",
+    "https://gemini.google.com/*"
+  ],
+  "action": { "default_popup": "popup.html" }
+}
