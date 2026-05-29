@@ -1,6 +1,7 @@
 *
 !.gitignore
-!build.ps1
+!README.md
+!build.mjs
 !src/
 !src/**
 
